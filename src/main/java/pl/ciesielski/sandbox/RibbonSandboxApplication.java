@@ -8,5 +8,7 @@ public class RibbonSandboxApplication {
 
   public static void main(String[] args) {
     SpringApplication.run(RibbonSandboxApplication.class, args);
+
+    new HelloClient().run();
   }
 }
